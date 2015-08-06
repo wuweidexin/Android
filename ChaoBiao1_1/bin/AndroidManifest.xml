@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chen.chaobiao1_1"
+    android:versionCode="1"
+    android:versionName="1.1" >
+   <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.chen.mainActivity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.mainActivity.AllMenuItem"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.mainActivity.AllMenuItem" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.mainActivity.AllCopyWatch"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.mainActivity.AllCopyWatch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.mainActivity.AllDataTransmit"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.mainActivity.AllDataTransmit" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.mainActivity.AllParameterSetting"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.mainActivity.AllParameterSetting" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.peowirless.CopyPeo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.peowirless.CopyPeo" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.peowirless.PeoWirCopShow"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.peowirless.PeoWirelessCop" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.peowirless.PeoWirelessCopSearch"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.peowirless.PeoWirelessCopSearch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.peowirless.PeoWirelessInputData"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.peowirless.PeoWirelessInputData" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.peowirless.PeoWirGroCop"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.peowirless.PeoWirGroCop" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.industrywirless.IndWirCop"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.industrywirless.IndWirCop" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.industrywirless.IndWirCopShow"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.industrywirless.IndWirCopShow" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.industrywirless.IndWirCopSearch"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.industrywirless.IndWirCopSearch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.manual.ManCopIndex"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.manual.ManCopIndex" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.manual.ManCopWritePrice"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.manual.ManCopWritePrice" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.manual.ManCopRead"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.manual.ManCopRead" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.manual.ManCopWrite"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.manual.ManCopWrite" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.recordbuilding.IndRecPlaceSelect"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.recordbuilding.IndRecPlaceSelect" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.recordbuilding.IndustryRecordbuilding"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.recordbuilding.IndustryRecordbuilding" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.recordbuilding.PeoRecPlaceSelect"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.recordbuilding.PeoRecPlaceSelect" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.recordbuilding.PeoRecordbuilding"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.recordbuilding.PeoRecordbuilding" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.parametersetting.WatchParameterSetting"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.parametersetting.WatchParameterSetting" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.parametersetting.AlterPwd"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.parametersetting.AlterPwd" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.datatransmit.DataTransmit"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.datatransmit.DataTransmit" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.datatransmit.ReadVersion"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.datatransmit.ReadVersion" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.datatransmit.SystemTime"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.datatransmit.SystemTime" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chen.industrywirless.IndWirInputData"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.chen.industrywirless.IndWirInputData" />
+            </intent-filter>
+        </activity>
+      
+        
+        <activity android:name="com.ds.bluetooth.ServerActivity" >
+        </activity>
+        <activity android:name="com.ds.bluetooth.ClientActivity" >
+        </activity>
+         <activity android:name="com.ds.bluetooth.CopWatBluActivity" >
+        </activity>
+
+        <service android:name="com.ds.bluetoothUtil.BluetoothServerService" >
+        </service>
+        <service android:name="com.ds.bluetoothUtil.BluetoothClientService" >
+        </service>
+    </application>
+
+</manifest>

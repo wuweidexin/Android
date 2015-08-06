@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<TextView 
+	    android:id="@+id/par_set_pwdOne"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:text="@string/pwdOne"
+	    />
+	<EditText 
+	    android:id="@+id/par_set_pwdOneEdit"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_alignBaseline="@id/par_set_pwdOne"
+	    android:layout_toRightOf="@id/par_set_pwdOne"
+	    android:layout_alignParentRight="true"
+	    
+	    />
+	
+	<TextView 
+	    android:id="@+id/par_set_pwdTwo"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="30dp"
+	    android:layout_below="@id/par_set_pwdOne"
+	    android:text="@string/pwdTwo"
+	    />
+	<EditText 
+	    android:id="@+id/par_set_pwdTwoEdit"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_alignBaseline="@id/par_set_pwdTwo"
+	    android:layout_toRightOf="@id/par_set_pwdTwo"
+	    android:layout_alignParentRight="true"
+	    
+	    />
+	
+	<Button 
+	    android:id="@+id/par_set_back"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/par_set_pwdTwo"
+	    android:layout_marginTop="30dp"
+	    android:text="@string/back"
+	    />
+	
+	<Button 
+	    android:id="@+id/par_set_alter"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/par_set_back"
+	    android:text="@string/alter"
+	    />
+</RelativeLayout>

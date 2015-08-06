@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <RadioGroup 
+       android:id="@+id/man_cop_indRG"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       >
+       <RadioButton 
+           android:id="@+id/man_cop_indRead"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/man_read"
+           />
+       <RadioButton 
+           android:id="@+id/man_cop_indWrite"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/man_write"
+           />
+       <RadioButton 
+           android:id="@+id/man_cop_indReset"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/man_reset"
+           />
+       
+       
+   </RadioGroup>
+    
+     <LinearLayout 
+        android:id="@+id/man_cop_lin3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button 
+            android:id="@+id/man_cop_butExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            />
+          <Button 
+            android:id="@+id/man_cop_butExecuteCom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/executeCom"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/man_cop_wriPriceOne"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/priceOne"/>
+    
+   <EditText 
+       android:id="@+id/man_cop_wriPriceOneEdit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/man_cop_wriPriceOne"
+       android:layout_alignParentRight="true"
+       android:layout_alignBaseline="@id/man_cop_wriPriceOne"
+       />
+   
+    <TextView 
+        android:id="@+id/man_cop_wriUseOne"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/man_cop_wriPriceOne"
+        android:layout_marginTop="30dp"
+        android:text="@string/useOne"/>
+    
+   <EditText 
+       android:id="@+id/man_cop_wriUseOneEdit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/man_cop_wriUseOne"
+       android:layout_alignParentRight="true"
+       android:layout_alignBaseline="@id/man_cop_wriUseOne"
+       />
+   
+    <TextView 
+        android:id="@+id/man_cop_wriPriceTwo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/man_cop_wriUseOne"
+        android:layout_marginTop="30dp"
+        android:text="@string/priceTwo"/>
+    
+   <EditText 
+       android:id="@+id/man_cop_wriPriceTwoEdit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/man_cop_wriPriceTwo"
+       android:layout_alignParentRight="true"
+       android:layout_alignBaseline="@id/man_cop_wriPriceTwo"
+       />
+   
+      <TextView 
+        android:id="@+id/man_cop_wriUseTwo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/man_cop_wriPriceTwo"
+        android:layout_marginTop="30dp"
+        android:text="@string/useTwo"/>
+    
+   <EditText 
+       android:id="@+id/man_cop_wriUseTwoEdit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/man_cop_wriUseTwo"
+       android:layout_alignParentRight="true"
+       android:layout_alignBaseline="@id/man_cop_wriUseTwo"
+       />
+   
+    <TextView 
+        android:id="@+id/man_cop_wriPriceThree"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/man_cop_wriUseTwo"
+        android:layout_marginTop="30dp"
+        android:text="@string/priceThree"/>
+    
+   <EditText 
+       android:id="@+id/man_cop_wriPriceThreeEdit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/man_cop_wriPriceThree"
+       android:layout_alignParentRight="true"
+       android:layout_alignBaseline="@id/man_cop_wriPriceThree"
+       />
+   
+   <TextView 
+        android:id="@+id/man_cop_wriStartDay"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/man_cop_wriPriceThree"
+        android:layout_marginTop="30dp"
+        android:text="@string/startDay"/>
+    
+   <EditText 
+       android:id="@+id/man_cop_wriStartDayEdit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/man_cop_wriStartDay"
+       android:layout_alignParentRight="true"
+       android:layout_alignBaseline="@id/man_cop_wriStartDay"
+       />
+   <Button 
+       android:id="@+id/man_cop_wriBack"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+        android:layout_below="@id/man_cop_wriStartDay"
+        android:text="@string/back"
+       />
+
+</RelativeLayout>

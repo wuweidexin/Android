@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择你要进行选择的区域" />
+
+    <Spinner
+        android:id="@+id/peo_rec_choseArea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/choseArea" />
+
+    <Spinner
+        android:id="@+id/peo_rec_choseBiotope"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/choseTestArea" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/peo_rec_back"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/peo_rec_chose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chose" />
+    </LinearLayout>
+
+</LinearLayout>

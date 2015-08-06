@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+    <ListView
+        android:id="@+id/ind_record_head"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:id="@+id/ind_rec_listhead_tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="用户名"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/ind_rec_listhead_tv2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="表号"
+            android:gravity="center" />
+    </ListView>
+
+</LinearLayout>

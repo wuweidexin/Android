@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/dat_tra_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parSetTitle" />
+
+    <TextView
+        android:id="@+id/dat_tra_severName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dat_tra_title"
+        android:layout_marginTop="15dp"
+        android:text="@string/serverName" />
+
+    <TextView
+        android:id="@+id/dat_tra_showMess"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/dat_tra_severName" />
+
+    <LinearLayout
+        android:id="@+id/dat_tra_lin1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dat_tra_showMess"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/dat_tra_back"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/dat_tra_download"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/download" />
+
+        <Button
+            android:id="@+id/dat_tra_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload" />
+    </LinearLayout>
+
+</RelativeLayout>

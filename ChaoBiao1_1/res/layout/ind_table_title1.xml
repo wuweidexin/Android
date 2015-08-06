@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/ind_tabletitle1_tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="用户名"
+        />
+
+    <TextView
+        android:id="@+id/ind_tabletitle1_tv2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:text="表号"
+        android:gravity="center"/>
+	  <TextView
+        android:id="@+id/ind_tabletitle1_tv3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:text="状态"
+        android:gravity="center"/>
+	  <TextView
+        android:id="@+id/ind_tabletitle1_tv4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:text="是否已读"
+        android:gravity="center"/>
+	  
+
+</LinearLayout>

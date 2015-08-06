@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="4dip" >
+
+    <TextView
+        android:id="@+id/cop_peo_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="区域" />
+
+    <Spinner
+        android:id="@+id/cop_peo_area1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cop_peo_area"
+        android:layout_toRightOf="@id/cop_peo_area"
+        android:prompt="@string/bArea" />
+
+    <TextView
+        android:id="@+id/cop_peo_biotope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cop_peo_area"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="小区" />
+
+    <Spinner
+        android:id="@+id/cop_peo_biotope1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cop_peo_biotope"
+        android:layout_toRightOf="@id/cop_peo_biotope"
+        android:prompt="@string/bBiotope" />
+    	
+      <TextView
+        android:id="@+id/cop_peo_bui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cop_peo_biotope"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="楼号" />
+
+    <Spinner
+        android:id="@+id/cop_peo_bui1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cop_peo_bui"
+        android:layout_toRightOf="@id/cop_peo_bui"
+        android:prompt="@string/buildingNum" />
+    
+    <TextView
+        android:id="@+id/cop_peo_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cop_peo_bui"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="单元" />
+
+    <Spinner
+        android:id="@+id/cop_peo_unit1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cop_peo_unit"
+        android:layout_toRightOf="@id/cop_peo_unit"
+        android:prompt="@string/unitNum" />
+    
+
+  
+
+    <TextView
+        android:id="@+id/cop_peo_flo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cop_peo_unit"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:text="楼层" />
+
+    <EditText
+        android:id="@+id/cop_peo_flo1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cop_peo_flo"
+        android:layout_alignParentRight="true"
+        android:text="1"
+        android:editable="false"
+        android:layout_toRightOf="@id/cop_peo_flo" />
+
+    <Button
+        android:id="@+id/cop_peo_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cop_peo_submit"
+        android:layout_toLeftOf="@+id/cop_peo_submit"
+        android:text="返回" />
+
+    <Button
+        android:id="@+id/cop_peo_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cop_peo_flo"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:text="无线抄表" />
+
+</RelativeLayout>

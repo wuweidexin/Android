@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/man_cop_lin1W"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/man_cop_wriRG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/man_cop_wriPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wPrice" />
+
+            <RadioButton
+                android:id="@+id/man_cop_wriMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wMoney" />
+
+            <RadioButton
+                android:id="@+id/man_cop_wriTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wStandarTime" />
+            
+             <RadioButton
+                android:id="@+id/man_cop_wriValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wValue" />
+             
+              <RadioButton
+                android:id="@+id/man_cop_wriStandarW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wStandarWat" />
+              
+               <RadioButton
+                android:id="@+id/man_cop_wriURL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wURL" />
+        </RadioGroup>
+
+       
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/man_cop_rel2W"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/man_cop_stateW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/State" />
+
+        <TextView
+            android:id="@+id/man_cop_stateViewW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/man_cop_stateW"
+            android:layout_toRightOf="@id/man_cop_stateW"
+            android:text="没有状态" />
+
+        <TextView
+            android:id="@+id/man_cop_watchNumW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/man_cop_stateW"
+            android:layout_marginTop="15dp"
+            android:text="@string/WatchNum" />
+
+        <EditText
+            android:id="@+id/man_cop_watchNumEditW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/man_cop_watchNumW"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/man_cop_watchNumW" />
+
+        <RelativeLayout
+            android:id="@+id/man_cop_wriRL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/man_cop_watchNumW" >
+
+            <TextView
+                android:id="@+id/man_cop_wMess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/mess"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/man_cop_wMessEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/man_cop_wMess"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/man_cop_wMess"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/man_cop_wMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/money"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/man_cop_wMoneyEdit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/man_cop_wMoney"
+                android:layout_toRightOf="@id/man_cop_wMoney"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/man_cop_wTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/man_cop_wMoneyEdit"
+                android:layout_toRightOf="@id/man_cop_wMoneyEdit"
+                android:text="@string/time"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/man_cop_wTimeEdit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/man_cop_wTime"
+                android:layout_toRightOf="@id/man_cop_wTime"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/man_cop_wStandarTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/standarTime"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/man_cop_wStandarTimeEdit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/man_cop_wStandarTime"
+                android:layout_toRightOf="@id/man_cop_wStandarTime"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/man_cop_wStandarWat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/standarWat"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/man_cop_wStandarWatEdit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/man_cop_wStandarWat"
+                android:layout_toRightOf="@id/man_cop_wStandarWat"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/man_cop_wURL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/URL"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/man_cop_wURLEdit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/man_cop_wURL"
+                android:layout_toRightOf="@id/man_cop_wURL"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/man_cop_wChoseValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/openOrCloseValue"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/man_cop_lin3W"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/man_cop_exitW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/exit" />
+
+        <Button
+            android:id="@+id/man_cop_buExecuteComW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/executeCom" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="exit">退出</string>
+    <string name="app_name">抄表</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username">用户名</string>
+    <string name="password">密	码</string>
+    <string name="mai_submit">确	定</string>
+    <string name="mai_cancle">取	消</string>
+    <string name="copy_watch">抄	表</string>
+    <string name="parameter_setting">参数设置</string>
+    <string name="data_transmit">数据传输</string>
+    <string name="single_copy">单抄</string>
+    <string name="stop">停止</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="allCus">全部用户</string>
+    <string name="unCopyCus">未抄表用户</string>
+    <string name="allClear">清除</string>
+    <string name="search">查询</string>
+    <string name="openValue">开阀</string>
+    <string name="closeValue">关阀</string>
+    <string name="inputData">数据录入</string>
+    <string name="choseArea">请选择你要抄表的区域</string>
+    <string name="choseTestArea">请选择你要抄表的测试区域</string>
+    <string name="man_read">手工读取命令</string>
+    <string name="man_write">手工写命令</string>
+    <string name="man_reset">恢复出厂设置</string>
+    <string name="chose">选择</string>
+    <string name="State">目前操作状态：</string>
+    <string name="WatchNum">表号</string>
+    <string name="rChoseTime">更改时间</string>
+    <string name="rChoseNum">选择：1帧|否则3帧</string>
+    <string name="rConcleWat">手工控制表号</string>
+    <string name="rChoseWay">民用|否则工业</string>
+    
+     <string name="rPrice">读价格表</string>
+    <string name="rMoney">读购入金额</string>
+    <string name="rStandarTime">读标准时间</string>
+    <string name="rValue">读阀门控制</string>
+    <string name="rStandarWat">读基表底数</string>
+    <string name="rURL">读地址</string>
+    
+    <string name="executeCom">执行命令</string>
+    <string name="wPrice">写价格表</string>
+    <string name="wMoney">写购入金额</string>
+    <string name="wStandarTime">写标准时间</string>
+    <string name="wValue">写阀门控制</string>
+    <string name="wStandarWat">写基表底数</string>
+    <string name="wURL">写地址</string>
+    
+    
+   
+    
+    <string name="priceSet">单价设置</string>
+    <string name="priceOne">单价一</string>
+    <string name="priceTwo">单价二</string>
+    <string name="priceThree">单价三</string>
+    <string name="useOne">用量一</string>
+    <string name="useTwo">用量二</string>
+    <string name="startDay">启动日</string>
+    <string name="mess">信息</string>
+    <string name="money">金额</string>
+    <string name="time">次数</string>
+    <string name="openOrCloseValue">阀门开|否则关</string>
+    <string name="standarTime">标准时间</string>
+    <string name="standarWat">基底表</string>
+    <string name="URL">网址</string>
+    <string name="bArea">区域</string>
+    <string name="bBiotope">小区</string>
+    <string name="watchNum">仪表号</string>
+    <string name="customerNum">用户名</string>
+    <string name="buildingNum">楼号</string>
+    <string name="unitNum">单元</string>
+    <string name="leverNum">楼层</string>
+    <string name="doorplateNum">门牌号</string>
+    <string name="delete">删除</string>
+    <string name="add">增加</string>
+    <string name="peobookbuilding">民用用户档案</string>
+    <string name="indbookbuilding">工业用户档案</string>
+    
+    <string name="communicationSpeed">通讯速率</string>
+    <string name="communicationChannel">通讯信道</string>
+	<string name="fastResponseTime">快速响应开始时间</string>
+	<string name="serialPortNum">节电方式开始时间</string>
+	<string name="saveElementStartTime">串口号</string>
+	
+	<string name="pwdOne">输入密码</string>
+	<string name="pwdTwo">确认输入</string>
+	
+	<string name="alter">修改</string>
+	<string name="parSetTitle">用户信息下载-采集数据上传</string>
+	<string name="serverName">服务器IP</string>
+	
+	<string name="download">下载</string>
+	<string name="upload">上传</string>
+	
+	<string name="showElementTitle">目前剩余电量</string>
+	<string name="date">日期</string>
+	<string name="timeAlter">时间修改</string>
+</resources>

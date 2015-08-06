@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:id="@+id/man_cop_lin1R"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+         <RadioGroup
+            android:id="@+id/man_cop_reaRG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/man_cop_reaMeasureData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rPrice" />
+
+            <RadioButton
+                android:id="@+id/man_cop_reaPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rMoney" />
+
+            <RadioButton
+                android:id="@+id/man_cop_reaURL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rStandarTime" />
+            
+             <RadioButton
+                android:id="@+id/man_cop_reaMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rValue" />
+             
+              <RadioButton
+                android:id="@+id/man_cop_reaHistoryMeasureData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rStandarWat" />
+              
+               <RadioButton
+                android:id="@+id/man_cop_reaFlowmeter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rURL" />
+        </RadioGroup>
+        
+        
+    </LinearLayout>
+    
+     <RelativeLayout 
+        android:id="@+id/man_cop_lin2R"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView 
+            android:id="@+id/man_cop_stateR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/State"
+            />
+         <TextView 
+            android:id="@+id/man_cop_stateViewR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/man_cop_stateR"
+            android:text="没有状态"
+            />
+         
+         <TextView 
+            android:id="@+id/man_cop_watchNumR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/man_cop_stateR"
+            android:text="@string/WatchNum"
+             />
+        <EditText 
+            android:id="@+id/man_cop_watchNumEditR"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@id/man_cop_watchNumR"
+            />
+        
+        <CheckBox 
+            android:id="@+id/man_cop_reaChoseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/man_cop_watchNumR"
+            
+            android:text="@string/rChoseTime"
+            />
+        
+        <CheckBox 
+            android:id="@+id/man_cop_reaChoseNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/man_cop_reaChoseTime"
+            android:layout_alignBaseline="@id/man_cop_reaChoseTime"
+            android:text="@string/rChoseNum"
+            />
+        
+        <CheckBox 
+            android:id="@+id/man_cop_reaManConcleWat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/man_cop_reaChoseTime"
+            
+            android:text="@string/rConcleWat"
+            />
+        
+        <CheckBox 
+            android:id="@+id/man_cop_reaChoseUseWay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/man_cop_reaManConcleWat"
+            android:layout_alignBaseline="@id/man_cop_reaManConcleWat"
+            android:text="@string/rChoseWay"
+            />
+    </RelativeLayout>
+    
+     <LinearLayout 
+        android:id="@+id/man_cop_lin3R"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button 
+            android:id="@+id/man_cop_exitR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            />
+          <Button 
+            android:id="@+id/man_cop_executeComR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/executeCom"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

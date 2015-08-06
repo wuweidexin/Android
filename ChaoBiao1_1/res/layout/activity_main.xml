@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mai_lableName"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dip"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/mai_editName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/mai_lableName"
+        android:layout_marginRight="10dip"
+        android:layout_toRightOf="@id/mai_lableName" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/mai_lablePwd"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mai_lableName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dip"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/mai_editPwd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/mai_lablePwd"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/mai_lablePwd"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/mai_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/mai_lablePwd"
+        android:text="@string/mai_submit" />
+
+    <Button
+        android:id="@+id/mai_cancle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mai_submit"
+        android:text="@string/mai_cancle" />
+
+</RelativeLayout>

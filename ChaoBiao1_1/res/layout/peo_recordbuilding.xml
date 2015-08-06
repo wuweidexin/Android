@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/peo_recbui_rea1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/peo_recbui_bArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/bArea" />
+
+        <TextView
+            android:id="@+id/peo_recbui_bAreaShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/peo_recbui_bArea"
+            android:layout_toRightOf="@id/peo_recbui_bArea"
+            android:layout_marginLeft="10dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/peo_recbui_bBiotope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/peo_recbui_bAreaShow"
+            android:layout_toRightOf="@id/peo_recbui_bAreaShow"
+            android:layout_marginLeft="20dp"
+            android:text="@string/bBiotope" />
+
+        <TextView
+            android:id="@+id/peo_recbui_bBiotopeShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/peo_recbui_bBiotope"
+            android:layout_toRightOf="@id/peo_recbui_bBiotope"
+            android:layout_marginLeft="10dp"
+            android:text="某小区" />
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/peo_recbui_rea2" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/peo_recbui_rea1"
+        
+        >
+        
+        <TextView 
+            android:id="@+id/peo_recbui_bWatchNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+     		android:text="@string/watchNum"
+            />
+        
+        <EditText 
+            android:id="@+id/peo_recbui_bWatchNumEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/peo_recbui_bWatchNum"
+            android:layout_alignBaseline="@id/peo_recbui_bWatchNum"
+            android:layout_alignParentRight="true"
+            android:enabled="false"
+            />
+        
+        <TextView 
+            android:id="@+id/peo_recbui_bCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/peo_recbui_bWatchNum"
+     		android:text="@string/customerNum"
+            />
+        
+        <EditText
+            android:id="@+id/peo_recbui_bCustomerEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/peo_recbui_bCustomer"
+            android:layout_alignBaseline="@id/peo_recbui_bCustomer"
+            android:layout_alignParentRight="true"/>
+
+        <TextView 
+            android:id="@+id/peo_recbui_bBuildingNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/peo_recbui_bCustomer"
+     		android:text="@string/buildingNum"
+            />
+        
+        <EditText 
+            android:id="@+id/peo_recbui_bBuildingNumEdit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/peo_recbui_bBuildingNum"
+            android:layout_alignBaseline="@id/peo_recbui_bBuildingNum"
+           
+            />
+        <TextView 
+            android:id="@+id/peo_recbui_bUnitNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/peo_recbui_bBuildingNumEdit"
+            android:layout_alignBaseline="@id/peo_recbui_bBuildingNumEdit"
+     		android:text="@string/unitNum"
+            />
+        
+        <EditText 
+            android:id="@+id/peo_recbui_bUnitNumEdit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/peo_recbui_bUnitNum"
+            android:layout_alignBaseline="@id/peo_recbui_bUnitNum"
+            />
+        <TextView 
+            android:id="@+id/peo_recbui_bLeverNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@id/peo_recbui_bBuildingNum"
+     		android:text="@string/leverNum"
+            />
+        
+        <EditText 
+            android:id="@+id/peo_recbui_bLeverNumEdit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/peo_recbui_bLeverNum"
+            android:layout_alignBaseline="@id/peo_recbui_bLeverNum"
+            />
+        <TextView 
+            android:id="@+id/peo_recbui_bDoorplateNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:layout_toRightOf="@id/peo_recbui_bLeverNumEdit"
+            android:layout_alignBaseline="@id/peo_recbui_bLeverNumEdit"
+     		android:text="@string/doorplateNum"
+            />
+        
+        <EditText 
+            android:id="@+id/peo_recbui_bDoorplateNumEdit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/peo_recbui_bDoorplateNum"
+            android:layout_alignBaseline="@id/peo_recbui_bDoorplateNum"
+            />
+        
+        <TextView 
+            android:id="@+id/peo_recbui_showmess"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/peo_recbui_bLeverNum"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+     		android:text="@string/peobookbuilding"
+            />
+        <ListView 
+            android:id="@+id/peo_recbui_bListView"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@id/peo_recbui_showmess"
+            android:layout_marginTop="30dp"
+            ></ListView>
+    </RelativeLayout>
+
+   
+
+    <LinearLayout android:id="@+id/peo_recbui_lin3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/peo_recbui_rea2"
+         >
+        <Button 
+            android:id="@+id/peo_recbui_bExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/exit"
+            />
+        
+       
+        
+        <Button 
+            android:id="@+id/peo_recbui_bAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

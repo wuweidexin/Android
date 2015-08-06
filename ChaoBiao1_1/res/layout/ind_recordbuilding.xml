@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   
+        <TextView
+            android:id="@+id/ind_recbui_bArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/bArea" />
+
+        <TextView
+            android:id="@+id/ind_recbui_bAreaShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ind_recbui_bArea"
+            android:layout_toRightOf="@id/ind_recbui_bArea"
+            android:layout_marginLeft="10dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/ind_recbui_bBiotope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ind_recbui_bAreaShow"
+            android:layout_toRightOf="@id/ind_recbui_bAreaShow"
+            android:layout_marginLeft="20dp"
+            android:text="@string/bBiotope" />
+
+        <TextView
+            android:id="@+id/ind_recbui_bBiotopeShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ind_recbui_bBiotope"
+            android:layout_toRightOf="@id/ind_recbui_bBiotope"
+            android:layout_marginLeft="10dp"
+            android:text="" />
+    
+        
+        <TextView 
+            android:id="@+id/ind_recbui_bWatchNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ind_recbui_bArea"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+     		android:text="@string/watchNum"
+            />
+        
+        <EditText 
+            android:id="@+id/ind_recbui_bWatchNumEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ind_recbui_bWatchNum"
+            android:layout_alignBaseline="@id/ind_recbui_bWatchNum"
+            android:layout_alignParentRight="true"
+             android:enabled="false"
+            />
+        
+        <TextView 
+            android:id="@+id/ind_recbui_bIndustry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@id/ind_recbui_bWatchNum"
+     		android:text="@string/customerNum"
+            />
+        
+        <EditText
+            android:id="@+id/ind_recbui_bIndustryEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ind_recbui_bIndustry"
+            android:layout_alignBaseline="@id/ind_recbui_bIndustry"
+            android:layout_alignParentRight="true"/>
+
+   
+
+   
+        <TextView 
+            android:id="@+id/ind_recbui_showmess"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ind_recbui_bIndustry"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+     		android:text="@string/indbookbuilding"
+            />
+        <ListView 
+            android:id="@+id/ind_recbui_bListView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ind_recbui_showmess"
+            ></ListView>
+        <ListView 
+            android:id="@+id/ind_recbui_bListView"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/ind_recbui_bListView1"
+            android:layout_marginTop="30dp"
+            ></ListView>
+  
+
+    <LinearLayout android:id="@+id/ind_recbui_lin3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ind_recbui_bListView"
+         >
+        <Button 
+            android:id="@+id/ind_recbui_bExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/exit"
+            />
+        
+        <Button 
+            android:id="@+id/ind_recbui_bAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

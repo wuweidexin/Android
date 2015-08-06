@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="4dip" >
+
+    <TextView
+        android:id="@+id/ind_wir_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="区域" />
+
+    <Spinner
+        android:id="@+id/ind_wir_area1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ind_wir_area"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/ind_wir_area" />
+
+    <TextView
+        android:id="@+id/ind_wir_hou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ind_wir_area"
+        android:layout_marginTop="50dp"
+        android:text="小区" />
+
+    <Spinner
+        android:id="@+id/ind_wir_hou1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ind_wir_hou"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/ind_wir_hou" />
+
+    <TextView
+        android:id="@+id/ind_wir_bui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ind_wir_hou"
+        android:layout_marginTop="50dp"
+        android:text="楼号" />
+
+    <Spinner
+        android:id="@+id/ind_wir_bui1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ind_wir_bui"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/ind_wir_bui" />
+
+    <TextView
+        android:id="@+id/ind_wir_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ind_wir_bui"
+        android:layout_marginTop="50dp"
+        android:text="单元" />
+
+    <Spinner
+        android:id="@+id/ind_wir_unit1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ind_wir_unit"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/ind_wir_unit" />
+
+    <TextView
+        android:id="@+id/ind_wir_flo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ind_wir_unit"
+        android:layout_marginTop="50dp"
+        android:text="楼层" />
+
+    <EditText
+        android:id="@+id/ind_wir_flo1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ind_wir_flo"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/ind_wir_flo" />
+    
+    <Button 
+        android:id="@+id/ind_wir_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/ind_wir_submit"
+       	android:layout_alignBottom="@id/ind_wir_submit"
+       	
+        android:text="返回"
+        />
+    
+    <Button 
+        android:id="@+id/ind_wir_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ind_wir_flo1"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:text="无线抄表"
+        />
+
+</RelativeLayout>

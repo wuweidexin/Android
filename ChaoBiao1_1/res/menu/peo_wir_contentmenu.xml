@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/peo_pir_search"
+        android:orderInCategory="1"
+        android:title="@string/search"/>
+    <item
+        android:id="@+id/peo_pir_openValue"
+        android:orderInCategory="2"
+        android:title="@string/openValue"/>
+    <item
+        android:id="@+id/peo_pir_closeValue"
+        android:orderInCategory="3"
+        android:title="@string/closeValue"/>
+    <item
+        android:id="@+id/peo_pir_inputData"
+        android:orderInCategory="4"
+        android:title="@string/inputData"/>
+    <item
+        android:id="@+id/peo_pir_copywatch"
+        android:orderInCategory="5"
+        android:title="@string/app_name"/>
+    <item
+        android:id="@+id/peo_pir_single_copy"
+        android:orderInCategory="6"
+        android:title="@string/single_copy"/>
+
+</menu>

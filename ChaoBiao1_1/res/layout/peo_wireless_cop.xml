@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/peo_wir_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/peo_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/peo_wir_tv" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/peo_wir_bLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/peo_list_view"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/peo_wir_sview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/peo_wir_back"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back" />
+    </LinearLayout>
+
+</RelativeLayout>
